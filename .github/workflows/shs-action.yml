@@ -20,7 +20,7 @@ jobs:
           
       - name: Run SHS Analyser
         id: shs-analyser
-        uses: isel-leic-shs/shs-action@v1
+        uses: isel-leic-shs/shs-action@main
         with:
           db_user: "dcclient"
           db_password: "dev02"
