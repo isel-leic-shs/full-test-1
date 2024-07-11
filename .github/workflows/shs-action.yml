@@ -24,7 +24,7 @@ jobs:
         with:
           db_user: "dcclient"
           db_password: "dev02"
-          connection_string: "jdbc:postgresql://0.tcp.eu.ngrok.io:18022/dependencycheck?currentSchema=public"
+          connection_string: "jdbc:postgresql://4.tcp.eu.ngrok.io:15014/dependencycheck?currentSchema=public"
           shs_token: "adwad"
           
       - name: Print github information
