@@ -25,6 +25,7 @@ jobs:
           db_user: "dcclient"
           db_password: "dev02"
           connection_string: "jdbc:postgresql://0.tcp.eu.ngrok.io:18022/dependencycheck?currentSchema=public"
+          shs_token: "adwad"
           
       - name: Print github information
         run: cat "${{ steps.shs-analyser.outputs.repository_info}}"
